@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message Artist {
+    string lastname = 1;
+    string fistname = 2;
+    google.protobuf.Timestamp birthDate = 3;
+}
